@@ -10,13 +10,13 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
 public class AuthorServiceTest {
-    @InjectMocks AuthorService authorService;
+    @InjectMocks AuthorService authorService1 = new AuthorService();
 
     @Mock
-    AuthorRepository authorRepository;
+    AuthorRepository authorRepository1;
 
     @Test
     public void testCreate(){
-        authorService.create(new Author("1", "1@gmail.com", 21, "India"));
+        authorService1.create(new Author("1", "1@gmail.com", 21, "India"));
     }
 }

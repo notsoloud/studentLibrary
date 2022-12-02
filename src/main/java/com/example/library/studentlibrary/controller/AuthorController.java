@@ -18,7 +18,6 @@ public class AuthorController {
     @Autowired
     AuthorService authorService;
 
-
     @PostMapping("/")
     public ResponseEntity createAuthor(@RequestBody Author author){
 
