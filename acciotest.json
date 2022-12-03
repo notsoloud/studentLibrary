@@ -1,4 +1,4 @@
 {
   "testRepo": "studentLibrary-solution",
-  "pathToFile": "src/test/java/com/example/library/studentlibrary/TestCases.java"
+  "pathToFile": "src/test/java/com/driver/test/TestCases.java"
 }
